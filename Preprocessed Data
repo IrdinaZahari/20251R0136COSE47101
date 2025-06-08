@@ -1,1 +1,5 @@
+Create datasets folder with README
 
+# Preprocessed Data Folder
+This folder contains cleaned datasets for academic, gaming, and mental health behavior analysis.  
+Each file here is used in pattern mining, clustering, or classification modules.
