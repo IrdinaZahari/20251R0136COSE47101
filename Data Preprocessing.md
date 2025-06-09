@@ -27,8 +27,8 @@ Dataset Gaming Effect on Students and Academic Result(no.3)
   </tr>
   <tr>
     <td>Classification</td>
-    <td colspan="3">Seriousness=time spend on gaming + when play game + hamper in sleep<br>Weight = 1.5<br>Classification: seriousness x weight</td>
-    <td colspan="2">Seriousness=mental stress score + depression score<br>Weight = 2<br>Classification: seriousness x weight</td>
+    <td colspan="3">Seriousness_gaming=time spend on gaming + when play game + hamper in sleep<br>Weight = 1.0<br>Classification: seriousness x weight</td>
+    <td colspan="2">Seriousness_mental=mental stress score + depression score<br>Weight = 1.5<br>Classification: seriousness x weight</td>
   </tr>
 </table>
 
