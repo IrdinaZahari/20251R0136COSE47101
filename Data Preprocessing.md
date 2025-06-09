@@ -11,7 +11,7 @@ Dataset Gaming Effect on Students and Academic Result(no.3)
   </tr>
   <tr>
     <td>range from raw dataset</td>
-    <td>below 1<br>1-2<br>3-4<br>5+</td>
+    <td> <2 hours <br>3-4<br> >5 hours</td>
     <td>Afternoon<br>Evening<br>Mid-night</td>
     <td>Yes<br>Sometimes<br>No</td>
     <td>Yes<br>Sometimes<br>No</td>
