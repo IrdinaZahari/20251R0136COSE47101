@@ -11,7 +11,7 @@ Dataset Gaming Effect on Students and Academic Result(no.3)
   </tr>
   <tr>
     <td>range from raw dataset</td>
-    <td> <2 hours <br>3-4<br> >5 hours</td>
+    <td> <2 hours <br>3-4 hours <br> >5 hours</td>
     <td>Afternoon<br>Evening<br>Mid-night</td>
     <td>Yes<br>Sometimes<br>No</td>
     <td>Yes<br>Sometimes<br>No</td>
@@ -19,7 +19,7 @@ Dataset Gaming Effect on Students and Academic Result(no.3)
   </tr>
   <tr>
     <td>range for classification (split)</td>
-    <td>intensity(scoring)<br><1, 1-2: low(0)<br> 3-4:average(0.5)<br>5+:high(1)</td>
+    <td>intensity(scoring)<br> <2 hours: low(0)<br> 3-4 hours:average(0.5)<br> >5 hours:high(1)</td>
     <td>scoring<br>Afternoon:0<br>Evening:0.5<br>Mid-night:1</td>
     <td>scoring<br>Yes: 1<br>Sometimes: 0.5<br>No: 0</td>
     <td>scoring<br>Yes: 1<br>Sometimes: 0.5<br>No: 0</td>
