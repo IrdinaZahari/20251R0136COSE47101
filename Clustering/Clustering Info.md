@@ -1,27 +1,10 @@
-Categorical Features of Parent Dataset
+**Categorical Features of Parent Dataset**
+
 | Playing Games | Game Duration | Game Time | Hamper Sleep | Headache | Mental Stress | Depression | Attention Level | Academics |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes
-Sometimes
-No | <2 hours
-3-4 horus
->5 hours | Afternoon
-Evening
-Mid-night | Yes
-Sometimes
-No | Yes
-Sometimes
-No | Yes
-Sometimes
-No | Yes
-Sometimes
-No | Excellent
-Good
-Averae
-Bad | Excellent
-Good
-Average
-Bad |
+| Yes,Sometimes, No | <2 hours, 3-4 horus, >5 hours | Afternoon, Evening, Mid-night | Yes, Sometimes, No | Yes, Sometimes, No | Yes, Sometimes, No | Yes, Sometimes, No | Excellent, Good, Average, Bad | Excellent, Good, Average, Bad |
+
+Originally, our intention
 
 
 Originally, our intention was to use One-Hot Encoding or Label Encoding, however found out that they are not suitable for our dataset due to the fact that:
