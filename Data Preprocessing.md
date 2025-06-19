@@ -56,11 +56,11 @@ Dataset uniGame (no.1)
 <table>
   <tr>
     <td></td>
-    <td>Your current GPA</td>
+    <td>Your current GPA  </td>
     <td>when you go to sleep </td>
-    <td>do you attend your morning class regularly</td>
+    <td>attending morning class regularly</td>
     <td>avg time spend on playing games</td>
-    <td>how many time you spend with family and friends</td>
+    <td>time spending with family&friends</td>
     <td>do you feel fatigue</td>
   </tr>
   <tr>
@@ -74,8 +74,8 @@ Dataset uniGame (no.1)
   </tr>
   <tr>
     <td>range for classification (split)</td>
-    <td>2.00-2.49: low(3)<br>2.50-2.99: average(2)<br>3.00-3.49: good(1)(<br>3.50-4.00: excellent(0)</td>
-    <td>20,21,22: healthy(0)<br>23,0,1: average(1)<br>2,3,4: late (2)<br>5,6,7,8: very late (3)</td>
+    <td>binning into 1/3:<br><br> Low: lowest=2.00<br>highest=3.00<br><br> Average:<br>lowest=3.00<br>highest=3.41<br><br>High:<br>lowest=3.41<br>highest=4.00</td>
+    <td>20,21,22: healthy(0)<br><br>23,0,1: average(1)<br><br>2,3,4: late (2)<br><br>5,6,7,8: very late (3)</td>
     <td>Yes(0)<br>No(1)</td>
     <td>0-2hrs: low(0)<br>3-5hrs: moderate(1)<br>6+hrs: high(2)</td>
     <td>0-2hrs: low(2)<br>3-5hrs: moderate(1)<br>6+hrs: high(0)</td>
