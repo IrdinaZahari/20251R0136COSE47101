@@ -87,6 +87,54 @@ Dataset uniGame (no.1)
   </tr>
 </table>
 
+Dataset Mental Health (no.2)
+
+<table>
+  <tr>
+    <td></td>
+    <td> GPA  </td>
+    <td>Academic Pressure</td>
+    <td>Study Satisfaction</td>
+    <td>Sleep Duration</td>
+    <td>Dietry Habit</td>
+    <td>Suicidal Thoughts</td>
+    <td>Work Study Hours</td>
+    <td>Financial Stress</td>
+    <td>Family History</td>
+    <td>Depression</td>
+  </tr>
+  <tr>
+    <td>range from raw dataset</td>
+    <td>minimum: 5.00<br>maximum: 10.00</td>
+    <td>scale:<br>1 - 5</td>
+    <td>scale:<br>1 - 5</td>
+    <td> <5 hours<br>5-6 hours<br>7-8 hours<br> 8 hours> </td>
+    <td>Unhealthy<br>Moderate<br>Healthy</td>
+    <td>Yes<br>No</td>
+    <td>0 - 12 hours</td>
+    <td>scale:<br>1 -5</td>
+    <td>Yes<br>No</td>
+    <td>0<br>1</td>
+  </tr>
+  <tr>
+    <td>range for classification (split)</td>
+    <td>binning into 1/3:<br><br> Low: lowest=5.00<br>highest=6.89<br><br> Average:<br>lowest=6.90<br>highest=8.56<br><br>High:<br>lowest=8.57<br>highest=10.00</td>
+    <td>1,2: low<br>3:moderate<br>4,5: high</td>
+    <td>1,2:low<br>3:moderate<br>4,5:high</td>
+    <td><5hours: very short<br><br>5-6 hours: short<br><br>7-8 hours: adequate<br><br> 8hours>: long</td>
+    <td>Unhealthy<br>Moderate<br>Healthy</td>
+    <td>Yes(1)<br>No(0)</td>
+    <td>0-4 hours: low<br><br>5-8 hours: average<br><br>9-12 hours: high</td>
+    <td>binning into 1/3:<br><br> Low: <=2<br><br> Moderate:<br>3,4<br><br>High:<br>5</td>
+    <td>Yes(1)<br>No(0)</td>
+    <td>Yes(1)<br>No(0)</td>
+  </tr>
+  <tr>
+    <td>Deciding label</td>
+    <td colspan="10">*Add score of all attribute<br>Need mental health support?<br> </td>
+  </tr>
+</table>
+
 
 
 
