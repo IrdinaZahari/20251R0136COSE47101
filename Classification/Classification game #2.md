@@ -1,4 +1,4 @@
-tudent Time Management Classification (UniGame Dataset)
+Student Time Management Classification (UniGame Dataset)
 
 This classification is used to classify students based on whether they are likely to **need time management support**. 
 The classification is based on survey features such as GPA, sleep patterns, class attendance, gaming habits, social time, and fatigue symptoms.
