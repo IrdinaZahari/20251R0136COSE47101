@@ -119,8 +119,8 @@ Dataset Mental Health (no.2)
   <tr>
     <td>range for classification (split)</td>
     <td>binning into 1/3:<br><br> Low: lowest=5.00<br>highest=6.89<br><br> Average:<br>lowest=6.90<br>highest=8.56<br><br>High:<br>lowest=8.57<br>highest=10.00</td>
-    <td>1,2: low<br>3:moderate<br>4,5: high</td>
-    <td>1,2:low<br>3:moderate<br>4,5:high</td>
+    <td>0,1,2: low<br>3:moderate<br>4,5: high</td>
+    <td>0,1,2:low<br>3:moderate<br>4,5:high</td>
     <td><5hours: very short<br><br>5-6 hours: short<br><br>7-8 hours: adequate<br><br> 8hours>: long</td>
     <td>Unhealthy<br>Moderate<br>Healthy</td>
     <td>Yes(1)<br>No(0)</td>
