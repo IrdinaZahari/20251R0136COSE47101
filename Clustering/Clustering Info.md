@@ -2,10 +2,23 @@
 
 | Playing Games | Game Duration | Game Time | Hamper Sleep | Headache | Mental Stress | Depression | Attention Level | Academics |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes,Sometimes, No | <2 hours, 3-4 horus, >5 hours | Afternoon, Evening, Mid-night | Yes, Sometimes, No | Yes, Sometimes, No | Yes, Sometimes, No | Yes, Sometimes, No | Excellent, Good, Average, Bad | Excellent, Good, Average, Bad |
+| Yes, Sometimes, No | <2 hours, 3-4 horus, >5 hours | Afternoon, Evening, Mid-night | Yes, Sometimes, No | Yes, Sometimes, No | Yes, Sometimes, No | Yes, Sometimes, No | Excellent, Good, Average, Bad | Excellent, Good, Average, Bad |
 
-Originally, our intention
 
+**Categorical Features of Child Dataset - Time Management**
+| CGPA Numerical | CGPA Category | Bed Time | Attend Morning Class | Avg Game Time | Social Time | Fatigue |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2.0-4.0 | Low, Average, High | Late, Average, Healthy | Yes, No | Low, Moderate, High | Low, Moderate, High | Yes, No |
+
+**Categorical Features of Child Dataset - Mental Health**
+| CGPA (Categorical) | Academic Pressure | Study Satisfaction | Sleep Duration | Dietary Habits | Suicidal Thoughts | Work Study Hours | Financial Stress | Family History | Depression |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Low, Average, High | Low, Moderate, High | Low, Moderate, High | Very short, Short, Adequate, Long | Unhealthy, Moderate, Healthy | Yes, No | Low, Moderate, High | Low, Moderate, High | Yes, No | 1, 0 |
+
+
+
+>
+>
 
 Originally, our intention was to use One-Hot Encoding or Label Encoding, however found out that they are not suitable for our dataset due to the fact that:
 
@@ -18,7 +31,7 @@ If your data is nominal (no inherent order), label encoding can mislead algorith
 
 
 
-So we use K-Modes clustering, which is a better choice for out dataset.
+So, we decided to go with K-Modes clustering, which is a definite better choice for out dataset.
 
 This is due to the reasons below:
 
