@@ -2,9 +2,14 @@
 
 Hello people!
 
-This is our repository for Data Science Team Project, titled Games and Students.
+This is our repository for Data Science Team Project, themed around **Games and Students**.
+
 \
-Please refer to the Overleaf Report folder for our project report, titled: Discording Life Balance: A Predictive System for Gaming-Affected Students.
+Kindly refer to the Overleaf Report folder for our project report, titled: **Discording Life Balance: A Predictive System for Gaming-Affected Students**.
+
+
+\
+
 
 Below are the team members information:
 
