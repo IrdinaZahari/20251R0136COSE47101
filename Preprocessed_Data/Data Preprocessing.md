@@ -1,9 +1,9 @@
 The data need to be preprocessed before it be use for building model using classification, pattern mining, clustering. The original datasets don’t actually tell us directly which students need time management support—they just give us raw numbers and categories, like exact GPA, hours spent gaming, or when students go to sleep. These are the process for preprocessing the data in our dataset.
 
 1. Grouping raw values into categories:
-Instead of using raw numbers (like a GPA of 2.8 or going to sleep at 3 AM), we grouped these into categories that make sense for our context—such as "low," "average," "good," or "excellent" for GPA, or "healthy," "average," "late," and "very late" for sleep time. This makes the data cleaner and more interpretable.
+Instead of using raw numbers (like a GPA of 2.8 or going to sleep at 3 AM), we grouped these into categories that make sense for our context—such as "low," "average," or "high" for GPA, or "healthy," "average," "late," and "very late" for sleep time. This makes the data cleaner and more interpretable.
 2. Turning categories into scores:
-We assigned scores to each category, with higher scores reflecting higher risk or more serious issues. For example, a "low" GPA gets a higher score (3), while "excellent" gets a lower score (0). This process is called ordinal encoding and it helps us turn words into numbers that our models can use.
+We assigned scores to each category, with higher scores reflecting higher risk or more serious issues. For example, a "low" GPA gets a higher score, while "high" gets a lower score. This process is called ordinal encoding and it helps us turn words into numbers that our models can use.
 3. Why use scoring and not just the raw data?
 Our datasets don’t come with labels saying who actually has a time management problem. So, we use these scores to create our own labels. By adding up the scores for each student across relevant attributes, we get a total "seriousness" score.
 4. Setting a threshold:
